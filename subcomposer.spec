@@ -1,8 +1,9 @@
 Summary:	Subtitle Composer
 Name:		subcomposer
 Version: 	0.5.2
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 Source0: 	http://ovh.dl.sourceforge.net/sourceforge/subcomposer/subtitlecomposer-%version.tar.bz2
+Patch1:     subtitlecomposer-0.5.2-fix-desktopfile-typo.patch
 License: 	GPLv2+
 Group: 		Video
 Url: 		http://subcomposer.sourceforge.net/
@@ -41,7 +42,7 @@ aiming to become an improved version of Subtitle Workshop for UNIX-like OSes.
 
 %prep
 %setup -q -n subtitlecomposer-%version
-
+%patch1 -p1
 %build
 %cmake_kde4
 %make
