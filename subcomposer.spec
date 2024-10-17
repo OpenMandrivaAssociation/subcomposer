@@ -6,7 +6,7 @@ Source0: 	http://ovh.dl.sourceforge.net/sourceforge/subcomposer/subtitlecomposer
 Patch0:		subtitlecomposer-0.5.3-fix-linkage.patch
 License: 	GPLv2+
 Group: 		Video
-Url: 		http://subcomposer.sourceforge.net/
+Url: 		https://subcomposer.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: 	kdelibs4-devel
 BuildRequires:	libxine-devel
