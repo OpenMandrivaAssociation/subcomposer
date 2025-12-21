@@ -8,6 +8,7 @@ License: 	GPLv2+
 Group: 		Video
 Url: 		https://subcomposer.sourceforge.net/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: 	kdelibs4-devel
 BuildRequires:	libxine-devel
 BuildRequires:	libgstreamer0.10-plugins-base-devel
